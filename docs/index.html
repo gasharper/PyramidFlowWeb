@@ -59,7 +59,7 @@
             <div class="publication-links">
               <!-- PDF Link. -->
               <span class="link-block">
-                <a href="static/pdf/paper.pdf"
+                <a href="static/pdf/Lei_PyramidFlow_High-Resolution_Defect_Contrastive_Localization_Using_Pyramid_Normalizing_Flow_CVPR_2023_paper.pdf"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
@@ -108,12 +108,11 @@
 <section class="hero teaser">
     <div class="columns is-centered">
       <div class="column is-6">
-        <video id="teaser" autoplay muted loop height="100%">
-          <source src="static/videos/teaser.mp4"
-                  type="video/mp4">
-        </video>
+        <div class="content juxtapose">
+          <img src="static/images/poster.png" data-label="Visualize Results" />
+        </div>
         <h2 class="subtitle has-text-centered">
-          Our method obtains a high-quality 3D reconstruction from an RGB-D input sequence by training a multi-layer perceptron.
+          The poster of the proposed PyramidFlow.
         </h2>
       </div>
     </div>
@@ -128,23 +127,7 @@
         <h2 class="title is-2">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-           During industrial processing, unforeseen defects may
-           arise in products due to uncontrollable factors. Although
-           unsupervised methods have been successful in defect local-
-           ization, the usual use of pre-trained models results in low-
-           resolution outputs, which damages visual performance. To
-           address this issue, we propose PyramidFlow, the first fully
-           normalizing flow method without pre-trained models that
-           enables high-resolution defect localization. Specifically,
-           we propose a latent template-based defect contrastive lo-
-           calization paradigm to reduce intra-class variance, as the
-           pre-trained models do. In addition, PyramidFlow utilizes
-           pyramid-like normalizing flows for multi-scale fusing and
-           volume normalization to help generalization. Our com-
-           prehensive studies on MVTecAD demonstrate the proposed
-           method outperforms the comparable algorithms that do not
-           use external priors, even achieving state-of-the-art perfor-
-           mance in more challenging BTAD scenarios.
+            During industrial processing, unforeseen defects may arise in products due to uncontrollable factors. Although unsupervised methods have been successful in defect localization, the usual use of pre-trained models results in low-resolution outputs, which damages visual performance. To address this issue, we propose PyramidFlow, the first fully normalizing flow method without pre-trained models that enables high-resolution defect localization. Specifically, we propose a latent template-based defect contrastive localization paradigm to reduce intra-class variance, as the pre-trained models do. In addition, PyramidFlow utilizes pyramid-like normalizing flows for multi-scale fusing and volume normalization to help generalization. Our comprehensive studies on MVTecAD demonstrate the proposed method outperforms the comparable algorithms that do not use external priors, even achieving state-of-the-art performance in more challenging BTAD scenarios.
           </p>
         </div>
       </div>
@@ -171,18 +154,18 @@
   <div class="container">
     <div class="columns is-centered has-text-centered">
       <div class="column is-full-width">
-        <h3 class="title is-2">Visualize Results</h3>
+        <h3 class="title is-2">Visualization</h3>
         <div class="content has-text-justified">
           <p>
            Visualization of our results on MVTecAD and BTAD. From top to bottom are original images, estimated image templates, our localization 
-           results, and ground truths. (a) The six challenging results on MVTecAD. (b) Two representative results on BTAD. (c) Results for the 
-           four unregistered categories on MVTecAD. (d) Results for complex scenarios.
+           results, and ground truths. <b>(a)</b> The four texture results on MVTecAD. <b>(b)</b> Seven challenging object results on MVTecAD. <b>(c)</b> Results for the 
+           three unregistered categories on MVTecAD. <b>(d)</b> Results for complex scenarios on BTAD.
           </p>
         </div>
         <div class="columns is-centered">
           <div class="column is-three-quarters">
             <div class="content juxtapose">
-              <img src="static/images/scene0002_ours.png" data-label="Visualize Results" />
+              <img src="static/images/results.png" data-label="Visualize Results" />
             </div>
 
           </div>
@@ -197,13 +180,14 @@
   <div class="container content">
     <h2 class="title">BibTeX</h2>
     <pre><code>@InProceedings{Lei_2023_CVPR,
-    author    = {Jiarui Lei and Xiaobo Hu and Yue Wang and Dong Liu},
-    title     = {PyramidFlow: High-Resolution Defect Contrastive Localization using Pyramid Normalizing Flow},
-    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-    month     = {March},
-    year      = {2023},
-    pages     = {14143-14152}
-}</code></pre>
+      author    = {Lei, Jiarui and Hu, Xiaobo and Wang, Yue and Liu, Dong},
+      title     = {PyramidFlow: High-Resolution Defect Contrastive Localization Using Pyramid Normalizing Flow},
+      booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+      month     = {June},
+      year      = {2023},
+      pages     = {14143-14152}
+  }
+</code></pre>
   </div>
 </section>
 
@@ -211,7 +195,7 @@
 <footer class="footer">
   <div class="container">
     <div class="content has-text-centered">
-      <a class="icon-link" href="static/pdf/paper.pdf">
+      <a class="icon-link" href="static/pdf/Lei_PyramidFlow_High-Resolution_Defect_CVPR_2023_supplemental.pdf">
         <i class="fas fa-file-pdf"></i>
       </a>
       <a class="icon-link" href="#" class="external-link" disabled>
